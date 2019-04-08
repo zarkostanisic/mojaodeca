@@ -1,0 +1,300 @@
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "style.scss";
+
+body{
+	word-wrap: break-word;
+}
+figcaption{
+	font-size: 13px;
+	margin-top: 8px;
+	color: #868686;
+}
+iframe{
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+.život a{
+	color: #00eda4 !important;
+}
+.zdravlje a{
+	color: #ffb404 !important;
+}
+.nega a{
+	color: #ff8585 !important;
+}
+.razno a{
+	color: #444 !important;
+}
+.poznati a{
+	color: #F44336 !important;
+}
+.moda a{
+	color: #512DA8 !important;
+}
+.article-body a{
+	color: #25c6fe;
+	border-bottom: 2px solid #25c6fe;
+}
+.article-body a:hover{
+	text-decoration:none; 
+}
+.cat-nav{
+	background: white;
+	padding: 25px;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+	background: #fe8c00;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #f83600, #fe8c00);
+}
+.article h1 , .related-articles h1, .article h2{
+	font-family: 'Poppins',sans-serif;
+	line-height: 1.2;
+	font-size: 40px;
+	margin: 0;
+	padding-bottom: 25px;
+	font-weight: 600;
+	color: #323b43;
+}
+.article h2, .related-articles h2{
+	font-family: inherit;
+	line-height: 1.6;
+}
+.article h2{
+	font-size: 30px;
+}
+.article p, .related-articles p{
+	line-height: 1.6;
+	padding-bottom: 10px;
+}
+.related-articles h3{
+	font-size: 30px;
+	text-align:center;
+	font-family: 'Poppins',sans-serif;
+	line-height: 1.2;
+	margin: 0;
+	padding-bottom:13px;
+	font-weight: 600;
+	color: inherit;
+}
+.related-articles p, .article-sidebar p{
+	font-size: 17px;
+	color: #7b8994;
+	padding-bottom: 10px; 
+	line-height: 1.6;
+}
+.related-articles p{
+	padding-bottom: 0px;
+}
+.article-sidebar p{
+	font-size: 15px;
+}
+#index-header{
+	background: #f9f9ff;
+}
+.index-sidebar{
+	margin-top: 50px !important;
+}
+.index-article-top{
+	margin-top: 20px !important;
+}
+.index-sidebar-items{
+	background: #f4f7fc;
+}
+.index-sidebar-items h3{
+	font-family: 'Poppins',sans-serif;
+}
+.index-sidebar-items p{
+	padding: 0px;
+}
+.related-title{
+	font-weight: 600 !important;
+	font-size: 21px !important;
+	text-align: left !important;
+	color: #323b43 !important;
+}
+.article{
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 1.6;
+	color: inherit;
+}
+.article, .related-articles{
+	font-family: 'Source Sans Pro',sans-serif;
+	color: #323b43;
+}
+.article, .article-sidebar{
+	margin-top: 75px;
+}
+.related-articles{
+	padding-bottom: 30px;
+	border-bottom: 1px solid #dce4ec;
+	padding-top: 30px;
+	border-top: 1px solid #dce4ec;
+}
+.related-article img{
+	width: 100%;
+	height: 235px;
+}
+.index-article, .index-article h3{
+	font-weight: 500 !important;
+	border:0px;
+}
+.read-more {
+	font-family: 'Source Sans Pro',sans-serif;
+	display: inline-block;
+	text-decoration: none;
+	font-style: normal;
+	opacity: 1;
+	color: #25c6fe;
+	font-size: 16px;
+	font-weight: 600;
+}
+.read-more span{
+	font-size: 13px;
+	margin-left: 5px;
+}
+.article-info{
+	font-size: 16px;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.article-head::after{
+	content: "";
+	display: block;
+	border-bottom: 1px solid #dce4ec;
+	width: 100%;
+	margin-top: 15px;
+}
+.article-date, .article-cat{
+	color: #7b8994;
+	white-space: nowrap;
+}
+.article-cat a, .article-index-cat a{
+	text-transform: uppercase;
+	font-weight: bold;
+	color:#25c6fe;
+}
+.article-index-cat a{
+	font-size: 14px;
+	display: block;
+	padding: 5px 0px;
+}
+.article-cat a:hover{
+	text-decoration:none;
+}
+.article-cat::after, .article-date::after{
+	color: #7b8994;
+	content: "|";
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.article-body, .article-head{
+	padding: 0px 50px;
+}
+.article-body img{
+	margin-top: 10px;
+	width: 100%;
+}
+.related-articles-bottom img{
+	margin-top: 30px;
+}
+.magazin-cat-list ul{
+	padding:0px 2px;
+}
+.magazin-cat-list ul li{
+	text-transform: uppercase;
+	padding: 10px 0px;
+	border-bottom: 1px solid #f0f0f0;
+	list-style: none;
+	font-family: 'Source Sans Pro',sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	color: #666;
+	font-family: 'Poppins',sans-serif;
+}
+.cat-sidebar{
+	padding: 0px 15px;
+	background: #f4f7fc;
+	margin-bottom: 20px;
+}
+.latest-title{
+	font-weight: 600 !important;
+	padding-bottom: 10px !important;
+	font-size: 16px !important;
+	text-align: left !important; 
+	color: #323b43 !important;
+}
+#fitness{
+	padding-top: 60px;
+	min-height: 350px;
+	background-color: #25c6fe;
+	margin-bottom: -50px;
+}
+.fitness-item h3{
+	width: 80%;
+	background: rgba(0,0,0,0.77);
+	color: white !important;
+	padding: 15px;
+	height: 65px;
+	margin-top: -65px;
+	margin-bottom: 20px;
+	z-index: 2;
+	position: relative;
+	font-size: 15px !important;
+	font-weight: 600 !important;
+}
+.fitness-item img{
+	width: 100%;
+	height: 235px;
+}
+#popular-head{
+	background: #00eda4;
+	padding: 10px;
+	text-align: center;
+	font-family: 'Poppins',sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: white;
+	font-size: 15px;
+}
+.index-article-body{
+	padding: 5px 10px;
+}
+.article-body{
+	padding-top: 10px;
+}
+@media(max-width:767px){
+	.article-body, .article-head{
+		padding: 0px 5px;
+	}   
+	.article-body{
+		padding-top: 10px;
+	}
+	.article{
+		margin-top: 30px;
+	}
+	.article h1{
+		font-size: 28px;
+	}
+	.related-articles h3{
+		font-size: 25px;
+	}
+	.article p{
+		font-size: 18px;
+	}
+	.article h2{
+		font-size: 24px;
+	}
+}
